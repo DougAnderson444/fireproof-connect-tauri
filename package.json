@@ -1,0 +1,23 @@
+{
+  "name": "@fireproof/connect-tauri",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/connect-tauri.js"
+    }
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@fireproof/encrypted-blockstore": "^0.18.0",
+    "@tauri-apps/api": "^1.5.4"
+  }
+}
